@@ -3,9 +3,13 @@ A light weight supervised text classifier written in Python!  This supervised cl
 
 ## Training file format
 
+Place a training.txt file in the current folder and the format is as follows,
+
+```
 __label__category1 training data
 __label__category1 some other data
 __label__category2 some data
+```
 
 Text followed by __label__ is the category name, followed by a space then the input sentence.
 
