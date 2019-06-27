@@ -19,6 +19,6 @@ Text followed by __label__ is the category name, followed by a space then the in
 import classifier
 results = classifier.classify("offer linkedin linkedin", "somerandomcategory")
 ```
-`results` will be a list of tuple, like [('category'1', 10), ('category2',5)] sorted by top match first. 10,5 are the scores i.e number of word matches.
+`results` will be a list of tuple, like [('category'1', 10), ('category2',5)] sorted by top match first. 10,5 are the scores i.e number of word matches. "somerandomcategory" is the default category that you will receive in the event of no match!
 
 If you need more powerful/accurate classification and you have a huge training set, refer my blog article for other options!
